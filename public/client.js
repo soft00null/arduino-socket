@@ -28,3 +28,4 @@ function readData (data) {
 
 // when new data comes in the websocket, read it:
 socket.on('message', readData);
+
